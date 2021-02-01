@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="styles.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+    <div class="filmina">
+      <div class="base-mob">
+        <img id="imagenbase-mob" src="images/logo.svg" alt="">
+      </div>
+      <div id="imagehidden">
+        <img src="images/hero-mobile.jpg" alt="">
+      </div>
+      <div class="lados izquierda">
+        <div class="base">
+          <img id="imagenbase" src="images/logo.svg" alt="">
+        </div>
+
+        <div class="alerta">
+          <div id="textoparrafo">
+          <h1 id="parrafo"> <!-- h1 \n -->
+              WE'RE<br/><span id="coming-soon">COMING<br/>SOON</span>              
+          </h1>
+              <P id="hello">
+                Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.
+              </P>
+              
+            
+            
+
+          </div>
+      </div>
+        <form action="" id="datosusuario">
+          <input required placeholder="Email Address" style="font-family: 'Josefin Sans', sans-serif;" maxlength="40" minlength="12" type="email" id="email-input" class="borderosa" onsubmit="return false;" >
+          <div id="lugarboton">
+            <button id="botoningreso">
+              <img id="imagenboton"src="images/icon-arrow.svg" alt="">
+            </button>
+          </div>
+          <div id="alertamail"class="alertainvisible">
+            <p id="parrafoalerta">Please provide a valid email</p>
+          </div>
+        </form>
+      </div> 
+      <div class="lados derecha">
+        <img src="images/hero-desktop.jpg" alt="">
+      </div>
+    </div>
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">David OLIVERA</a>.
+    </p>
+  </footer>
+
+</body>
+
+<script src="java.js"></script>
+</html>
