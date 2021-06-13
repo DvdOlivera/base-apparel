@@ -7,5 +7,4 @@
 + CSS3
 + Javascript
 + GoogleFonts
-+ 
 + [Frontendmentor](https://www.frontendmentor.io)
